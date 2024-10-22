@@ -1,0 +1,58 @@
+
+:root{
+    /* Cores */
+    --cor-primaria: #0F172A;
+    --roxo-escuro: #581C87;
+    --roxo-medio: #7E22CE;
+    --roxo-claro: #A252EE;
+    --laranja-escuro: #F59E0B;
+    --laranja-medio: #FBBF24;
+    --laranja-claro: #FCD34D;
+    --azul-medio: #0369A1;
+
+    /* Fontes */
+    --fonte-principal: 'roboto';
+}
+
+*{
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2em 4em;
+}
+
+.cabecalho__section{
+    display: flex;
+    align-items: center;
+    line-height: 3em;
+    gap: 1em;
+    font-weight: 500;
+}
+
+.cabecalho__section-titulo{
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 1em 0 0;
+}
+
+.cabecalho__section-link{
+    font-size: 1em;
+}
+
+.cabecalho__section-telefone{
+    color: var(--azul-medio);
+}
+
+.cabecalho__section-quote{
+    color: var(--roxo-escuro);
+}
